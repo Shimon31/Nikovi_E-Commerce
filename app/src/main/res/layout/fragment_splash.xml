@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primaryClr"
+    tools:context=".SplashFragment">
+    
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:src="@drawable/sp_logo"
+        android:layout_marginTop="80dp"
+        android:foregroundGravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/dp_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/kodchasan"
+        android:gravity="center"
+        android:text="@string/sp_text_1"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+    <ImageView
+        android:id="@+id/spImage"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/spalash_screen_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dp_text1"/>
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/signUpBTN"
+    android:layout_width="210dp"
+    android:layout_height="40dp"
+    android:text="Sign Up"
+    android:textStyle="bold"
+    android:fontFamily="@font/kodchasan"
+    android:layout_marginTop="90dp"
+    android:textColor="@color/primaryClr"
+    android:textAllCaps="false"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/spImage"
+    android:background="@drawable/button_design"/>
+
+    <TextView
+        android:id="@+id/alreadyAccount"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/kodchasan"
+        android:text="Already have an account?"
+        android:textSize="18sp"
+        android:layout_marginLeft="48dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signUpBTN" />
+
+    <TextView
+        android:id="@+id/loginTV"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/kodchasan"
+        android:text="Log In"
+        android:layout_marginRight="40dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="2dp"
+        app:layout_goneMarginRight="46dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/alreadyAccount"
+        app:layout_constraintTop_toBottomOf="@id/signUpBTN" />
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

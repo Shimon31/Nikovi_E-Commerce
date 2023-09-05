@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ecommerce App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sp_text_1">Shopping Was Never This Eazy</string>
+    <string name="ob_text_1">Hey there, It’s a pleasure to meet you. We are excited that you’re joining us so let’s get started!</string>
+    <string name="ob_text_2">No need to ravage through irrelevant items anymore, we got you covered. Nikovi’s AI shows you relevant items based off of your habits and interests.</string>
+    <string name="ob_text_3">Tell us what you’er interested in. No, really, it helps the AI serving you with great products. You just keep shopping.</string>
+</resources>
