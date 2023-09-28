@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".HomeFragment">
+    tools:context=".ui.home.HomeFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -94,10 +94,10 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView1"
-            android:layout_width="190dp"
-            android:layout_height="185dp"
-            android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="12dp"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"
             android:backgroundTint="@color/primaryClr"
             app:cardCornerRadius="12dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -126,10 +126,10 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView2"
-            android:layout_width="190dp"
-            android:layout_height="185dp"
-            android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="12dp"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp"
             android:backgroundTint="@color/primaryClr"
             app:cardCornerRadius="12dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -159,10 +159,10 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView3"
-            android:layout_width="190dp"
-            android:layout_height="185dp"
-            android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="12dp"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"
             android:backgroundTint="@color/primaryClr"
             app:cardCornerRadius="12dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -191,10 +191,10 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView4"
-            android:layout_width="190dp"
-            android:layout_height="185dp"
-            android:layout_marginHorizontal="8dp"
-            android:layout_marginVertical="12dp"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="15dp"
             android:backgroundTint="@color/primaryClr"
             app:cardCornerRadius="12dp"
             app:layout_constraintEnd_toEndOf="parent"

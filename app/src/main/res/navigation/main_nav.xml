@@ -7,35 +7,52 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.shimon.ecommerceapp.SplashFragment"
+        android:name="com.example.shimon.ecommerceapp.ui.splashScreen.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash"/>
     <fragment
-        android:id="@+id/onboarding1Fragment"
-        android:name="com.example.shimon.ecommerceapp.Onboarding1Fragment"
-        android:label="fragment_onboarding1"
-        tools:layout="@layout/fragment_onboarding1" >
-        <action
-            android:id="@+id/action_onboarding1Fragment_to_onboardin2Fragment"
-            app:destination="@id/onboardin2Fragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/onboardin2Fragment"
-        android:name="com.example.shimon.ecommerceapp.onboardin2Fragment"
-        android:label="fragment_onboardin2"
-        tools:layout="@layout/fragment_onboardin2" >
-        <action
-            android:id="@+id/action_onboardin2Fragment_to_onboarding3Fragment"
-            app:destination="@id/onboarding3Fragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/onboarding3Fragment"
-        android:name="com.example.shimon.ecommerceapp.onboarding3Fragment"
-        android:label="fragment_onboarding3"
-        tools:layout="@layout/fragment_onboarding3" />
-    <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.shimon.ecommerceapp.HomeFragment"
+        android:name="com.example.shimon.ecommerceapp.ui.home.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_wishListFragment"
+            app:destination="@id/wishListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.shimon.ecommerceapp.ui.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.shimon.ecommerceapp.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/wishListFragment"
+        android:name="com.example.shimon.ecommerceapp.ui.wishlist.WishListFragment"
+        android:label="fragment_wish_list"
+        tools:layout="@layout/fragment_wish_list" />
+    <fragment
+        android:id="@+id/onBoarding1Fragment"
+        android:name="com.example.shimon.ecommerceapp.onBoarding1Fragment"
+        android:label="fragment_on_boarding1"
+        tools:layout="@layout/fragment_on_boarding1" />
+    <fragment
+        android:id="@+id/onBoarding2Fragment"
+        android:name="com.example.shimon.ecommerceapp.onBoarding2Fragment"
+        android:label="fragment_on_boarding2"
+        tools:layout="@layout/fragment_on_boarding2" />
+    <fragment
+        android:id="@+id/onBoarding3Fragment"
+        android:name="com.example.shimon.ecommerceapp.onBoarding3Fragment"
+        android:label="fragment_on_boarding3"
+        tools:layout="@layout/fragment_on_boarding3" />
 </navigation>
