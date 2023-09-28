@@ -56,12 +56,12 @@
             android:id="@+id/text1"
             android:layout_width="327dp"
             android:layout_height="wrap_content"
-            android:text="Get What You’re Interested In"
-            android:textAlignment="center"
             android:layout_gravity="center"
             android:fontFamily="@font/kodchasan"
-            android:textStyle="bold"
-            android:textSize="24sp"/>
+            android:text="Get What You’re Interested In"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/text2"

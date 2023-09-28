@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav"
-    app:startDestination="@id/onboarding1Fragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/splashFragment"
         android:name="com.example.shimon.ecommerceapp.SplashFragment"
         android:label="fragment_splash"
-        tools:layout="@layout/fragment_splash" />
+        tools:layout="@layout/fragment_splash"/>
     <fragment
         android:id="@+id/onboarding1Fragment"
         android:name="com.example.shimon.ecommerceapp.Onboarding1Fragment"
@@ -33,4 +33,9 @@
         android:name="com.example.shimon.ecommerceapp.onboarding3Fragment"
         android:label="fragment_onboarding3"
         tools:layout="@layout/fragment_onboarding3" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.shimon.ecommerceapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>
