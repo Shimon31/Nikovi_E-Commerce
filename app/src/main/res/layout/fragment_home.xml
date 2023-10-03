@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
         <TextView
             android:id="@+id/firstTV"
             android:layout_width="match_parent"
@@ -22,7 +21,7 @@
             android:textSize="28sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <TextView
             android:id="@+id/secondTV"
@@ -218,12 +217,10 @@
                 android:layout_marginLeft="100dp"
                 android:src="@drawable/categories"/>
 
-
-
         </androidx.cardview.widget.CardView>
 
-
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </ScrollView>
 

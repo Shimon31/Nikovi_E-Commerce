@@ -24,6 +24,9 @@
         <action
             android:id="@+id/action_homeFragment_to_wishListFragment"
             app:destination="@id/wishListFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/cartFragment"
@@ -55,4 +58,9 @@
         android:name="com.example.shimon.ecommerceapp.onBoarding3Fragment"
         android:label="fragment_on_boarding3"
         tools:layout="@layout/fragment_on_boarding3" />
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.shimon.ecommerceapp.ui.details.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" />
 </navigation>

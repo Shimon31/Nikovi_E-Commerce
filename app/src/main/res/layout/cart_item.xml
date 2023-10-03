@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp">
+
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/productId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Id : "
+            android:textSize="20sp"
+            android:fontFamily="@font/kodchasan"/>
+
+        <TextView
+            android:id="@+id/productQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity : "
+            android:textSize="20sp"
+            android:fontFamily="@font/kodchasan"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
